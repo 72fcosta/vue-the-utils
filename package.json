@@ -1,0 +1,32 @@
+{
+  "name": "vue-the-utils",
+  "version": "1.0.0",
+  "description": "Vue Utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/72fcosta/vue-the-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "valueToDate"
+  ],
+  "author": "72fcosta@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/72fcosta/vue-the-utils/issues"
+  },
+  "homepage": "https://github.com/72fcosta/vue-the-utils#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/eslint-parser": "^7.13.14",
+    "eslint": "^7.24.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  }
+}
