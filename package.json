@@ -16,7 +16,7 @@
     "valueToDate"
   ],
   "author": "72fcosta@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/72fcosta/vue-the-utils/issues"
   },
