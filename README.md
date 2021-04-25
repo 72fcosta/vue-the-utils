@@ -21,10 +21,12 @@ import { valueToDate } from 'vue-the-utils'
 
 ### Usage
 ```js
+// pt-BR
 // const value = '25/12/2021'
 // const value = '25-12-2021'
 // const value = '25 12 2021'
 
+// en-US
 // const value = '2021/12/2021'
 // const value = '2021-25-12'
 // const value = '2021 25 12'
