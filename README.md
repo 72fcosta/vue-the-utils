@@ -14,12 +14,12 @@ $ yarn add vue-the-utils
 
 ## 1. String pt-BR date => Local date
 
-#### Register
+### Register
 ```js
 import { valueToDate } from 'vue-the-utils'
 ```
 
-#### Usage
+### Usage
 ```js
 // const value = '25/12/2021'
 // const value = '25-12-2021'
