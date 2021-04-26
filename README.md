@@ -1,4 +1,4 @@
-# vue-the-utils
+# Vue The Utils
 
 ## <p align="center">Value to date</p>
 String pt-BR date => Local date
