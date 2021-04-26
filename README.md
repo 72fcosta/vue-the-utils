@@ -51,12 +51,12 @@ const messageBr = translateUsToBr(messageUs)
 
 ## Installation
 
-### Install via NPM
+#### Install via NPM
 ```sh
 $ npm install vue-the-utils --save
 ```
 
-### Install via NPM
+#### Install via NPM
 ```sh
 $ yarn add vue-the-utils
 ```
