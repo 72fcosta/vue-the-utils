@@ -12,7 +12,7 @@ $ npm install vue-the-utils --save
 $ yarn add vue-the-utils
 ```
 
-## Value to date
+## <p align="center">Value to date</p>
 String pt-BR date => Local date
 
 ### Register
