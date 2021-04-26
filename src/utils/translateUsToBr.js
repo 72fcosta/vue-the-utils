@@ -1,4 +1,4 @@
-const translateEnToBr = messageEn => {
+const translateUsToBr = messageUs => {
    const dictionary = {
       'invalid-argument': 'Argumento inválido',
       'auth/user-not-found': 'E-mail incorreto',
@@ -9,9 +9,9 @@ const translateEnToBr = messageEn => {
       'permission-denied': 'Permissão negada'
    }
 
-   return dictionary[messageEn] || messageEn
+   return dictionary[messageUs] || messageUs
 }
 
 export {
-   translateEnToBr
+   translateUsToBr
 }

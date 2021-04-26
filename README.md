@@ -32,7 +32,7 @@ import { valueToDate } from 'vue-the-utils'
 // const value = '2021-25-12'
 // const value = '2021 25 12'
 
-const dateFromValue = valueToDate(value)
+const date = valueToDate(value)
 ```
 
 ## <p align="center">Object to array</p>
@@ -45,7 +45,20 @@ import { objectToArray } from 'vue-the-utils'
 
 ### Usage
 ```js
-const arrayFromObject = objectToArray(object)
+const array = objectToArray(object)
+```
+
+## <p align="center">Translate en-US to pt-BR</p>
+Translate en-US => pt-BR
+
+### Register
+```js
+import { translateUsToBr } from 'vue-the-utils'
+```
+
+### Usage
+```js
+const messageBr = translateUsToBr(messageUs)
 ```
 
 ## License
