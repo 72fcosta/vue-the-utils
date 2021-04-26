@@ -35,6 +35,19 @@ import { valueToDate } from 'vue-the-utils'
 const dateFromValue = valueToDate(value)
 ```
 
+## <p align="center">Object to array</p>
+Object => Array
+
+### Register
+```js
+import { objectToArray } from 'vue-the-utils'
+```
+
+### Usage
+```js
+const arrayFromObject = objToArray(object)
+```
+
 ## License
 Vue-The-Utils is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 

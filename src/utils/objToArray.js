@@ -1,4 +1,4 @@
-const objToArray = obj => {
+const objectToArray = obj => {
    const setArray = ([key, value]) => Object.assign(value, { id: key })
 
    const objEntries = Object.entries(obj)
@@ -8,5 +8,5 @@ const objToArray = obj => {
 }
 
 export {
-   objToArray
+   objectToArray
 }

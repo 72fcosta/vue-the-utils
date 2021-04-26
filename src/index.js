@@ -1,9 +1,9 @@
-import * as objToArray from './utils/objToArray'
+import * as objectToArray from './utils/objectToArray'
 import * as translateEnToBr from './utils/translateEnToBr'
 import * as valueToDate from './utils/valueToDate'
 
 const vueTheUtils = {
-   objToArray,
+   objectToArray,
    translateEnToBr,
    valueToDate
 }
