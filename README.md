@@ -1,7 +1,7 @@
 # Vue The Utils
 Utilities for Vue
 
-## Value to date
+### Value to date
 String pt-BR date => Local date
 
 #### Register
@@ -24,7 +24,7 @@ import { valueToDate } from 'vue-the-utils'
 const date = valueToDate(value)
 ```
 
-## Object to array
+### Object to array
 Object => Array
 
 #### Register
@@ -37,7 +37,7 @@ import { objectToArray } from 'vue-the-utils'
 const array = objectToArray(object)
 ```
 
-## Translate en-us pt-br
+### Translate en-us pt-br
 Translate en-US => pt-BR
 
 #### Register
