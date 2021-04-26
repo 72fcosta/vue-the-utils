@@ -15,12 +15,12 @@ $ yarn add vue-the-utils
 ## <p align="center">Value to date</p>
 String pt-BR date => Local date
 
-### Register
+#### Register
 ```js
 import { valueToDate } from 'vue-the-utils'
 ```
 
-### Usage
+#### Usage
 ```js
 // pt-BR
 // const value = '25/12/2021'
@@ -38,12 +38,12 @@ const date = valueToDate(value)
 ## <p align="center">Object to array</p>
 Object => Array
 
-### Register
+#### Register
 ```js
 import { objectToArray } from 'vue-the-utils'
 ```
 
-### Usage
+#### Usage
 ```js
 const array = objectToArray(object)
 ```
@@ -51,12 +51,12 @@ const array = objectToArray(object)
 ## <p align="center">Translate en-US to pt-BR</p>
 Translate en-US => pt-BR
 
-### Register
+#### Register
 ```js
 import { translateUsToBr } from 'vue-the-utils'
 ```
 
-### Usage
+#### Usage
 ```js
 const messageBr = translateUsToBr(messageUs)
 ```
