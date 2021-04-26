@@ -36,7 +36,7 @@ import { objectToArray } from 'vue-the-utils'
 const array = objectToArray(object)
 ```
 
-## <p align="center">Translate en-US to pt-BR</p>
+## <p align="center">Translate en-us to pt-br</p>
 Translate en-US => pt-BR
 
 #### Register
