@@ -24,7 +24,7 @@ import { valueToDate } from 'vue-the-utils'
 const date = valueToDate(value)
 ```
 
-## Object to arrp>
+## Object to array
 Object => Array
 
 #### Register
@@ -37,7 +37,7 @@ import { objectToArray } from 'vue-the-utils'
 const array = objectToArray(object)
 ```
 
-## Translate en-o pt-br</p>
+## Translate en-us pt-br
 Translate en-US => pt-BR
 
 #### Register
