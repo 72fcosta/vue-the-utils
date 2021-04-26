@@ -45,7 +45,7 @@ import { objectToArray } from 'vue-the-utils'
 
 ### Usage
 ```js
-const arrayFromObject = objToArray(object)
+const arrayFromObject = objectToArray(object)
 ```
 
 ## License
