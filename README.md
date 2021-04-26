@@ -1,17 +1,5 @@
 # vue-the-utils
 
-## Installation
-
-### Install via NPM
-```sh
-$ npm install vue-the-utils --save
-```
-
-### Install via NPM
-```sh
-$ yarn add vue-the-utils
-```
-
 ## <p align="center">Value to date</p>
 String pt-BR date => Local date
 
@@ -59,6 +47,18 @@ import { translateUsToBr } from 'vue-the-utils'
 #### Usage
 ```js
 const messageBr = translateUsToBr(messageUs)
+```
+
+## Installation
+
+### Install via NPM
+```sh
+$ npm install vue-the-utils --save
+```
+
+### Install via NPM
+```sh
+$ yarn add vue-the-utils
 ```
 
 ## License
