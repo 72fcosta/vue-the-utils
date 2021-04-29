@@ -1,11 +1,10 @@
 {
   "name": "vue-the-utils",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Vue Utils",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack --watch --mode development"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

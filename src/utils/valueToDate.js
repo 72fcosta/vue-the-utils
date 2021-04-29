@@ -36,6 +36,4 @@ const valueToDate = value => {
    }
 }
 
-export {
-   valueToDate
-}
+export default valueToDate

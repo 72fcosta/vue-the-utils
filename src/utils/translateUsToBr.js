@@ -12,6 +12,4 @@ const translateUsToBr = messageUs => {
    return dictionary[messageUs] || messageUs
 }
 
-export {
-   translateUsToBr
-}
+export default translateUsToBr

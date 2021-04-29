@@ -7,6 +7,4 @@ const objectToArray = obj => {
    return array
 }
 
-export {
-   objectToArray
-}
+export default objectToArray
