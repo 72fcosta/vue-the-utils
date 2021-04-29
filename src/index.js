@@ -1,5 +1,11 @@
-import * as utils from './utils'
+import {
+   objectToArray,
+   translateUsToBr,
+   valueToDate
+} from './utils'
 
-const vueTheUtils = utils
-
-export default vueTheUtils
+export {
+   objectToArray,
+   translateUsToBr,
+   valueToDate
+}
