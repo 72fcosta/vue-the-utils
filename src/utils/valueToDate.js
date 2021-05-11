@@ -19,16 +19,18 @@ const valueToDate = value => {
 
    // check if string
    if (typeof (value) === 'string') {
-      const correctLength = value.length === 10
+      // check is bd date
+      value = value.slice(0, 10)
+
       const stringReplaced = value.replace(/\D/g, ' ')
       const stringSplitted = stringReplaced.split(' ')
 
       const isUsEn = stringSplitted[0].length === 4
       const isPtBr = stringSplitted[0].length === 2
 
-      if (correctLength && isUsEn) {
+      if (isUsEn) {
          return stringEnUsToDate(stringSplitted)
-      } else if (correctLength && isPtBr) {
+      } else if (isPtBr) {
          return stringPtBrToDate(stringSplitted)
       } else {
          return 'Erro. Formato não aceito'
